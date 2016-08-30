@@ -1,0 +1,46 @@
+body {
+	background: #fff;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	clear: both;
+	margin: 0 0 40px;
+	}
+
+.card-container {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.clearfix {
+	clear: both;
+	}
+
+.button-wrap {
+	text-align: center;
+}
+.deal-button {
+	background: #8B0000;
+	color: white;
+	padding: 5px 8px;
+	border-radius: 5px;
+	font-size: 30px;
+	}
+
+.results {
+	margin: 15px 0 0;
+	color: #663399;
+	font-size: 25px;
+	}

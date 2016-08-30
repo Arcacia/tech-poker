@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> 5 Card Poker</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+
+			<h1>5 Card Poker</h1>
+		
+	 	<div class="card-container">
+				<ul class = "card-holder">
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+				</ul>
+					<p> Player one: </p>
+					<p class = "results"> Results: <span id="result-a"></span></p>
+				</div>
+			
+			<div class="card-container">
+				<ul class = "card-holder">
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+					<li><img src = "images/back.gif" class="card-display"></li>
+				</ul>
+					<p> Player two: </p>
+					<p class = "results"> Results: <span id="result-b"></span></p>
+				</div>
+			
+		<br>
+		<br>
+		<div class="button-wrap clearfix">
+				<button type ="button" class ="deal-button" onclick="dealer()"> Deal!</a>
+		</div>
+	</div>
+</body>
+<script src="js/poker.js"></script>
+</html>
